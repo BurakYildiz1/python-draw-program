@@ -1,7 +1,7 @@
 import random
 
 # Kura çekilecek liste
-names = ["", "", "", "", "","","","","","","",""]
+names = ["", ""]
 teams = ["",""]
 # Kura çekilenlerin tutulduğu liste
 drawn = []
@@ -27,7 +27,7 @@ while len(names) > 0:
     # Öğeyi ekrana yazdır
     print("====================================")
     print(f"Çekilen isim: {name}")
-    print(f"Çekilen isim: {team}")
+    print(f"Çekilen takım: {team}")
     print("====================================")
 
     # Öğeyi çekilenler listesine ekle
